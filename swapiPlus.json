@@ -140,10 +140,10 @@
                 "MGLT": "75",
                 "starship_class": "Light freighter",
                 "pilots": [
-                    "https://swapi.co/api/people/13/",
-                    "https://swapi.co/api/people/14/",
-                    "https://swapi.co/api/people/25/",
-                    "https://swapi.co/api/people/31/"
+                    "Chewbacca",
+                    "Han Solo",
+                    "Lando Calrissian",
+                    "Nien Nunb",
                 ],
                 "films": [
                     "The Empire Strikes Back",
@@ -200,7 +200,7 @@
                     "https://swapi.co/api/people/19/"
                 ],
                 "films": [
-                    "https://swapi.co/api/films/2/",
+                    "The Empire Strikes Back",
                     "https://swapi.co/api/films/3/",
                     "https://swapi.co/api/films/1/"
                 ],
@@ -251,6 +251,12 @@
         "url": "https://swapi.co/api/films/1/"
         }
     ],
+
+
+
+
+
+
     "film_2" : [
         {
             "title": "The Empire Strikes Back",
@@ -269,12 +275,12 @@
                 "Chewbacca",
                 "Han Solo",
                 "Wedge Antilles",
-                "https://swapi.co/api/people/20/",
-                "https://swapi.co/api/people/21/",
-                "https://swapi.co/api/people/22/",
+                "Yoda",
+                "Palpatine",
+                "Boba Fett",
                 "https://swapi.co/api/people/23/",
                 "https://swapi.co/api/people/24/",
-                "https://swapi.co/api/people/25/",
+                "Lando Calrissian",
                 "https://swapi.co/api/people/26/"
             ],
             "planets": [
@@ -300,7 +306,7 @@
                     "starship_class": "Star dreadnought",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T12:31:42.547000Z",
@@ -322,15 +328,15 @@
                     "MGLT": "75",
                     "starship_class": "Light freighter",
                     "pilots": [
-                        "https://swapi.co/api/people/13/",
-                        "https://swapi.co/api/people/14/",
-                        "https://swapi.co/api/people/25/",
-                        "https://swapi.co/api/people/31/"
+                        "Chewbacca",
+                        "Han Solo",
+                        "Lando Calrissian",
+                        "Nien Nunb",
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/7/",
-                        "https://swapi.co/api/films/3/",
+                        "The Empire Strikes Back",
+                        "The Force Awakens",
+                        "Return of the Jedi",
                         "https://swapi.co/api/films/1/"
                     ],
                     "created": "2014-12-10T16:59:45.094000Z",
@@ -353,8 +359,8 @@
                     "starship_class": "assault starfighter",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/3/",
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
                         "https://swapi.co/api/films/1/"
                     ],
                     "created": "2014-12-12T11:00:39.817000Z",
@@ -382,8 +388,8 @@
                         "https://swapi.co/api/people/19/"
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/3/",
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
                         "https://swapi.co/api/films/1/"
                     ],
                     "created": "2014-12-12T11:19:05.340000Z",
@@ -405,10 +411,10 @@
                     "MGLT": "70",
                     "starship_class": "Patrol craft",
                     "pilots": [
-                        "https://swapi.co/api/people/22/"
+                        "Boba Fett",
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/5/"
                     ],
                     "created": "2014-12-15T13:00:56.332000Z",
@@ -431,12 +437,12 @@
                     "starship_class": "Armed government transport",
                     "pilots": [
                         "https://swapi.co/api/people/1/",
-                        "https://swapi.co/api/people/13/",
-                        "https://swapi.co/api/people/14/"
+                        "Chewbacca",
+                        "Han Solo",
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/3/"
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
                     ],
                     "created": "2014-12-15T13:04:47.235000Z",
                     "edited": "2014-12-22T17:35:44.795405Z",
@@ -458,8 +464,8 @@
                     "starship_class": "Escort ship",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/3/"
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
                     ],
                     "created": "2014-12-15T13:06:30.813000Z",
                     "edited": "2014-12-22T17:35:44.848329Z",
@@ -481,7 +487,7 @@
                     "starship_class": "Star Destroyer",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -505,7 +511,7 @@
                     "starship_class": "Medium transport",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T12:34:52.264000Z",
@@ -533,6 +539,15 @@
             "url": "https://swapi.co/api/films/2/"
         }
     ],
+
+
+
+
+
+
+
+
+
     "film_3" : [
         {
             "title": "Return of the Jedi",
@@ -552,15 +567,15 @@
                 "Han Solo",
                 "Jabba Desilijic Tiure",
                 "Wedge Antilles",
-                "https://swapi.co/api/people/20/",
-                "https://swapi.co/api/people/21/",
-                "https://swapi.co/api/people/22/",
-                "https://swapi.co/api/people/25/",
+                "Yoda",
+                "Palpatine",
+                "Boba Fett",
+                "Lando Calrissian",
                 "https://swapi.co/api/people/27/",
                 "https://swapi.co/api/people/28/",
                 "https://swapi.co/api/people/29/",
                 "https://swapi.co/api/people/30/",
-                "https://swapi.co/api/people/31/",
+                "Nien Nunb",
                 "https://swapi.co/api/people/45/"
             ],
             "planets": [
@@ -587,7 +602,7 @@
                     "starship_class": "Star dreadnought",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T12:31:42.547000Z",
@@ -609,14 +624,14 @@
                     "MGLT": "75",
                     "starship_class": "Light freighter",
                     "pilots": [
-                        "https://swapi.co/api/people/13/",
-                        "https://swapi.co/api/people/14/",
-                        "https://swapi.co/api/people/25/",
-                        "https://swapi.co/api/people/31/"
+                        "Chewbacca",
+                        "Han Solo",
+                        "Lando Calrissian",
+                        "Nien Nunb",
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
-                        "https://swapi.co/api/films/7/",
+                        "The Empire Strikes Back",
+                        "title": "The Force Awakens",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -640,7 +655,7 @@
                     "starship_class": "assault starfighter",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -669,7 +684,7 @@
                         "https://swapi.co/api/people/19/"
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -693,11 +708,11 @@
                     "starship_class": "Armed government transport",
                     "pilots": [
                         "https://swapi.co/api/people/1/",
-                        "https://swapi.co/api/people/13/",
-                        "https://swapi.co/api/people/14/"
+                        "Chewbacca",
+                        "Han Solo",
                     ],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T13:04:47.235000Z",
@@ -720,7 +735,7 @@
                     "starship_class": "Escort ship",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T13:06:30.813000Z",
@@ -811,7 +826,7 @@
                     "starship_class": "Star Destroyer",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -835,7 +850,7 @@
                     "starship_class": "Medium transport",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/2/",
+                        "The Empire Strikes Back",
                         "https://swapi.co/api/films/3/"
                     ],
                     "created": "2014-12-15T12:34:52.264000Z",
