@@ -194,15 +194,15 @@
                 "MGLT": "100",
                 "starship_class": "Starfighter",
                 "pilots": [
-                    "https://swapi.co/api/people/1/",
-                    "https://swapi.co/api/people/9/",
-                    "https://swapi.co/api/people/18/",
-                    "https://swapi.co/api/people/19/"
+                    "Luke Skywalker",
+                    "Biggs Darklighter",
+                    "Wedge Antilles",
+                    "Jek Tono Porkins"
                 ],
                 "films": [
                     "The Empire Strikes Back",
-                    "https://swapi.co/api/films/3/",
-                    "https://swapi.co/api/films/1/"
+                    "Return of the Jedi",
+                    "A New Hope"
                 ],
                 "created": "2014-12-12T11:19:05.340000Z",
                 "edited": "2014-12-22T17:35:44.491233Z",
@@ -223,10 +223,10 @@
                 "MGLT": "105",
                 "starship_class": "Starfighter",
                 "pilots": [
-                    "https://swapi.co/api/people/4/"
+                    "Darth Vader"
                 ],
                 "films": [
-                    "https://swapi.co/api/films/1/"
+                    "A New Hope"
                 ],
                 "created": "2014-12-12T11:21:32.991000Z",
                 "edited": "2014-12-22T17:35:44.549047Z",
@@ -234,17 +234,96 @@
             }
         ],
         "vehicles": [
-            "https://swapi.co/api/vehicles/4/",
-            "https://swapi.co/api/vehicles/6/",
-            "https://swapi.co/api/vehicles/7/",
-            "https://swapi.co/api/vehicles/8/"
+            {
+                "name": "Sand Crawler",
+                "model": "Digger Crawler",
+                "manufacturer": "Corellia Mining Corporation",
+                "cost_in_credits": "150000",
+                "length": "36.8",
+                "max_atmosphering_speed": "30",
+                "crew": "46",
+                "passengers": "30",
+                "cargo_capacity": "50000",
+                "consumables": "2 months",
+                "vehicle_class": "wheeled",
+                "pilots": [],
+                "films": [
+                    "https://swapi.co/api/films/5/",
+                    "https://swapi.co/api/films/1/"
+                ],
+                "created": "2014-12-10T15:36:25.724000Z",
+                "edited": "2014-12-22T18:21:15.523587Z",
+                "url": "https://swapi.co/api/vehicles/4/"
+            },
+            {
+                "name": "T-16 skyhopper",
+                "model": "T-16 skyhopper",
+                "manufacturer": "Incom Corporation",
+                "cost_in_credits": "14500",
+                "length": "10.4",
+                "max_atmosphering_speed": "1200",
+                "crew": "1",
+                "passengers": "1",
+                "cargo_capacity": "50",
+                "consumables": "0",
+                "vehicle_class": "repulsorcraft",
+                "pilots": [],
+                "films": [
+                    "https://swapi.co/api/films/1/"
+                ],
+                "created": "2014-12-10T16:01:52.434000Z",
+                "edited": "2014-12-22T18:21:15.552614Z",
+                "url": "https://swapi.co/api/vehicles/6/"
+            },
+            {
+                "name": "X-34 landspeeder",
+                "model": "X-34 landspeeder",
+                "manufacturer": "SoroSuub Corporation",
+                "cost_in_credits": "10550",
+                "length": "3.4",
+                "max_atmosphering_speed": "250",
+                "crew": "1",
+                "passengers": "1",
+                "cargo_capacity": "5",
+                "consumables": "unknown",
+                "vehicle_class": "repulsorcraft",
+                "pilots": [],
+                "films": [
+                    "https://swapi.co/api/films/1/"
+                ],
+                "created": "2014-12-10T16:13:52.586000Z",
+                "edited": "2014-12-22T18:21:15.583700Z",
+                "url": "https://swapi.co/api/vehicles/7/"
+            },
+            {
+                "name": "TIE/LN starfighter",
+                "model": "Twin Ion Engine/Ln Starfighter",
+                "manufacturer": "Sienar Fleet Systems",
+                "cost_in_credits": "unknown",
+                "length": "6.4",
+                "max_atmosphering_speed": "1200",
+                "crew": "1",
+                "passengers": "0",
+                "cargo_capacity": "65",
+                "consumables": "2 days",
+                "vehicle_class": "starfighter",
+                "pilots": [],
+                "films": [
+                    "https://swapi.co/api/films/2/",
+                    "https://swapi.co/api/films/3/",
+                    "https://swapi.co/api/films/1/"
+                ],
+                "created": "2014-12-10T16:33:52.860000Z",
+                "edited": "2014-12-22T18:21:15.606149Z",
+                "url": "https://swapi.co/api/vehicles/8/"
+            }
         ],
         "species": [
-            "https://swapi.co/api/species/5/",
-            "https://swapi.co/api/species/3/",
-            "https://swapi.co/api/species/2/",
-            "https://swapi.co/api/species/1/",
-            "https://swapi.co/api/species/4/"
+            "Hutt",
+            "Wookiee",
+            "Droid",
+            "Human",
+            "Rodian"
         ],
         "created": "2014-12-10T14:23:31.880000Z",
         "edited": "2015-04-11T09:46:52.774897Z",
@@ -278,16 +357,16 @@
                 "Yoda",
                 "Palpatine",
                 "Boba Fett",
-                "https://swapi.co/api/people/23/",
-                "https://swapi.co/api/people/24/",
+                "IG-88",
+                "Bossk",
                 "Lando Calrissian",
-                "https://swapi.co/api/people/26/"
+                "Lobot"
             ],
             "planets": [
-                "https://swapi.co/api/planets/4/",
-                "https://swapi.co/api/planets/5/",
-                "https://swapi.co/api/planets/6/",
-                "https://swapi.co/api/planets/27/"
+                "Hoth",
+                "Dagobah",
+                "Bespin",
+                "Ord Mantell"
             ],
             "starships": [
                 {
@@ -307,7 +386,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T12:31:42.547000Z",
                     "edited": "2017-04-19T10:56:06.685592Z",
@@ -337,7 +416,7 @@
                         "The Empire Strikes Back",
                         "The Force Awakens",
                         "Return of the Jedi",
-                        "https://swapi.co/api/films/1/"
+                        "A New Hope"
                     ],
                     "created": "2014-12-10T16:59:45.094000Z",
                     "edited": "2014-12-22T17:35:44.464156Z",
@@ -361,7 +440,7 @@
                     "films": [
                         "The Empire Strikes Back",
                         "Return of the Jedi",
-                        "https://swapi.co/api/films/1/"
+                        "A New Hope"
                     ],
                     "created": "2014-12-12T11:00:39.817000Z",
                     "edited": "2014-12-22T17:35:44.479706Z",
@@ -382,15 +461,15 @@
                     "MGLT": "100",
                     "starship_class": "Starfighter",
                     "pilots": [
-                        "https://swapi.co/api/people/1/",
-                        "https://swapi.co/api/people/9/",
-                        "https://swapi.co/api/people/18/",
-                        "https://swapi.co/api/people/19/"
+                        "Luke Skywalker",
+                        "Biggs Darklighter",
+                        "Wedge Antilles",
+                        "Jek Tono Porkins"
                     ],
                     "films": [
                         "The Empire Strikes Back",
                         "Return of the Jedi",
-                        "https://swapi.co/api/films/1/"
+                        "A New Hope"
                     ],
                     "created": "2014-12-12T11:19:05.340000Z",
                     "edited": "2014-12-22T17:35:44.491233Z",
@@ -436,7 +515,7 @@
                     "MGLT": "50",
                     "starship_class": "Armed government transport",
                     "pilots": [
-                        "https://swapi.co/api/people/1/",
+                        "Luke Skywalker",
                         "Chewbacca",
                         "Han Solo"
                     ],
@@ -488,8 +567,8 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-10T15:08:19.848000Z",
                     "edited": "2014-12-22T17:35:44.410941Z",
@@ -512,7 +591,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T12:34:52.264000Z",
                     "edited": "2014-12-22T17:35:44.680838Z",
@@ -520,19 +599,143 @@
                 }
             ],
             "vehicles": [
-                "https://swapi.co/api/vehicles/8/",
-                "https://swapi.co/api/vehicles/14/",
-                "https://swapi.co/api/vehicles/16/",
-                "https://swapi.co/api/vehicles/18/",
-                "https://swapi.co/api/vehicles/19/",
-                "https://swapi.co/api/vehicles/20/"
+                {
+                    "name": "TIE/LN starfighter",
+                    "model": "Twin Ion Engine/Ln Starfighter",
+                    "manufacturer": "Sienar Fleet Systems",
+                    "cost_in_credits": "unknown",
+                    "length": "6.4",
+                    "max_atmosphering_speed": "1200",
+                    "crew": "1",
+                    "passengers": "0",
+                    "cargo_capacity": "65",
+                    "consumables": "2 days",
+                    "vehicle_class": "starfighter",
+                    "pilots": [],
+                    "films": [
+                        "https://swapi.co/api/films/2/",
+                        "https://swapi.co/api/films/3/",
+                        "https://swapi.co/api/films/1/"
+                    ],
+                    "created": "2014-12-10T16:33:52.860000Z",
+                    "edited": "2014-12-22T18:21:15.606149Z",
+                    "url": "https://swapi.co/api/vehicles/8/"
+                },
+                {
+                    "name": "Snowspeeder",
+                    "model": "t-47 airspeeder",
+                    "manufacturer": "Incom corporation",
+                    "cost_in_credits": "unknown",
+                    "length": "4.5",
+                    "max_atmosphering_speed": "650",
+                    "crew": "2",
+                    "passengers": "0",
+                    "cargo_capacity": "10",
+                    "consumables": "none",
+                    "vehicle_class": "airspeeder",
+                    "pilots": [
+                        "https://swapi.co/api/people/1/",
+                        "https://swapi.co/api/people/18/"
+                    ],
+                    "films": [
+                        "https://swapi.co/api/films/2/"
+                    ],
+                    "created": "2014-12-15T12:22:12Z",
+                    "edited": "2014-12-22T18:21:15.623033Z",
+                    "url": "https://swapi.co/api/vehicles/14/"
+                },
+                {
+                    "name": "TIE bomber",
+                    "model": "TIE/sa bomber",
+                    "manufacturer": "Sienar Fleet Systems",
+                    "cost_in_credits": "unknown",
+                    "length": "7.8",
+                    "max_atmosphering_speed": "850",
+                    "crew": "1",
+                    "passengers": "0",
+                    "cargo_capacity": "none",
+                    "consumables": "2 days",
+                    "vehicle_class": "space/planetary bomber",
+                    "pilots": [],
+                    "films": [
+                        "https://swapi.co/api/films/2/",
+                        "https://swapi.co/api/films/3/"
+                    ],
+                    "created": "2014-12-15T12:33:15.838000Z",
+                    "edited": "2014-12-22T18:21:15.667730Z",
+                    "url": "https://swapi.co/api/vehicles/16/"
+                },
+                {
+                    "name": "AT-AT",
+                    "model": "All Terrain Armored Transport",
+                    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+                    "cost_in_credits": "unknown",
+                    "length": "20",
+                    "max_atmosphering_speed": "60",
+                    "crew": "5",
+                    "passengers": "40",
+                    "cargo_capacity": "1000",
+                    "consumables": "unknown",
+                    "vehicle_class": "assault walker",
+                    "pilots": [],
+                    "films": [
+                        "https://swapi.co/api/films/2/",
+                        "https://swapi.co/api/films/3/"
+                    ],
+                    "created": "2014-12-15T12:38:25.937000Z",
+                    "edited": "2014-12-22T18:21:15.714673Z",
+                    "url": "https://swapi.co/api/vehicles/18/"
+                },
+                {
+                    "name": "AT-ST",
+                    "model": "All Terrain Scout Transport",
+                    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+                    "cost_in_credits": "unknown",
+                    "length": "2",
+                    "max_atmosphering_speed": "90",
+                    "crew": "2",
+                    "passengers": "0",
+                    "cargo_capacity": "200",
+                    "consumables": "none",
+                    "vehicle_class": "walker",
+                    "pilots": [
+                        "https://swapi.co/api/people/13/"
+                    ],
+                    "films": [
+                        "https://swapi.co/api/films/2/",
+                        "https://swapi.co/api/films/3/"
+                    ],
+                    "created": "2014-12-15T12:46:42.384000Z",
+                    "edited": "2014-12-22T18:21:15.761584Z",
+                    "url": "https://swapi.co/api/vehicles/19/"
+                },
+                {
+                    "name": "Storm IV Twin-Pod cloud car",
+                    "model": "Storm IV Twin-Pod",
+                    "manufacturer": "Bespin Motors",
+                    "cost_in_credits": "75000",
+                    "length": "7",
+                    "max_atmosphering_speed": "1500",
+                    "crew": "2",
+                    "passengers": "0",
+                    "cargo_capacity": "10",
+                    "consumables": "1 day",
+                    "vehicle_class": "repulsorcraft",
+                    "pilots": [],
+                    "films": [
+                        "https://swapi.co/api/films/2/"
+                    ],
+                    "created": "2014-12-15T12:58:50.530000Z",
+                    "edited": "2014-12-22T18:21:15.783232Z",
+                    "url": "https://swapi.co/api/vehicles/20/"
+                }
             ],
             "species": [
-                "https://swapi.co/api/species/6/",
-                "https://swapi.co/api/species/7/",
-                "https://swapi.co/api/species/3/",
-                "https://swapi.co/api/species/2/",
-                "https://swapi.co/api/species/1/"
+                "Yoda's species",
+                "Trandoshan",
+                "Wookiee",
+                "Droid",
+                "Human"
             ],
             "created": "2014-12-12T11:26:24.656000Z",
             "edited": "2017-04-19T10:57:29.544256Z",
@@ -571,15 +774,15 @@
                 "Palpatine",
                 "Boba Fett",
                 "Lando Calrissian",
-                "https://swapi.co/api/people/27/",
-                "https://swapi.co/api/people/28/",
-                "https://swapi.co/api/people/29/",
-                "https://swapi.co/api/people/30/",
+                "Ackbar",
+                "Mon Mothma",
+                "Arvel Crynyd",
+                "Wicket Systri Warrick",
                 "Nien Nunb",
-                "https://swapi.co/api/people/45/"
+                "Bib Fortuna"
             ],
             "planets": [
-                "https://swapi.co/api/planets/5/",
+                "Dagobah",
                 "https://swapi.co/api/planets/7/",
                 "https://swapi.co/api/planets/8/",
                 "https://swapi.co/api/planets/9/",
@@ -603,7 +806,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T12:31:42.547000Z",
                     "edited": "2017-04-19T10:56:06.685592Z",
@@ -632,8 +835,8 @@
                     "films": [
                         "The Empire Strikes Back",
                         "The Force Awakens",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-10T16:59:45.094000Z",
                     "edited": "2014-12-22T17:35:44.464156Z",
@@ -656,8 +859,8 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-12T11:00:39.817000Z",
                     "edited": "2014-12-22T17:35:44.479706Z",
@@ -678,15 +881,15 @@
                     "MGLT": "100",
                     "starship_class": "Starfighter",
                     "pilots": [
-                        "https://swapi.co/api/people/1/",
-                        "https://swapi.co/api/people/9/",
-                        "https://swapi.co/api/people/18/",
-                        "https://swapi.co/api/people/19/"
+                        "Luke Skywalker",
+                        "Biggs Darklighter",
+                        "Wedge Antilles",
+                        "Jek Tono Porkins"
                     ],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-12T11:19:05.340000Z",
                     "edited": "2014-12-22T17:35:44.491233Z",
@@ -707,13 +910,13 @@
                     "MGLT": "50",
                     "starship_class": "Armed government transport",
                     "pilots": [
-                        "https://swapi.co/api/people/1/",
+                        "Luke Skywalker",
                         "Chewbacca",
                         "Han Solo"
                     ],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T13:04:47.235000Z",
                     "edited": "2014-12-22T17:35:44.795405Z",
@@ -736,7 +939,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T13:06:30.813000Z",
                     "edited": "2014-12-22T17:35:44.848329Z",
@@ -758,7 +961,7 @@
                     "starship_class": "Star Cruiser",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-18T10:54:57.804000Z",
                     "edited": "2014-12-22T17:35:44.957852Z",
@@ -779,10 +982,10 @@
                     "MGLT": "120",
                     "starship_class": "Starfighter",
                     "pilots": [
-                        "https://swapi.co/api/people/29/"
+                        "Arvel Crynyd"
                     ],
                     "films": [
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-18T11:16:34.542000Z",
                     "edited": "2014-12-22T17:35:44.978754Z",
@@ -804,7 +1007,7 @@
                     "starship_class": "Assault Starfighter",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-18T11:18:04.763000Z",
                     "edited": "2014-12-22T17:35:45.011193Z",
@@ -827,8 +1030,8 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-10T15:08:19.848000Z",
                     "edited": "2014-12-22T17:35:44.410941Z",
@@ -851,7 +1054,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "https://swapi.co/api/films/3/"
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T12:34:52.264000Z",
                     "edited": "2014-12-22T17:35:44.680838Z",
@@ -873,9 +1076,9 @@
                     "starship_class": "corvette",
                     "pilots": [],
                     "films": [
-                        "https://swapi.co/api/films/6/",
-                        "https://swapi.co/api/films/3/",
-                        "https://swapi.co/api/films/1/"
+                        "Revenge of the Sith",
+                        "Return of the Jedi",
+                        "A New Hope"
                     ],
                     "created": "2014-12-10T14:20:33.369000Z",
                     "edited": "2014-12-22T17:35:45.408368Z",
@@ -893,15 +1096,15 @@
                 "https://swapi.co/api/vehicles/30/"
             ],
             "species": [
-                "https://swapi.co/api/species/1/",
-                "https://swapi.co/api/species/2/",
-                "https://swapi.co/api/species/3/",
-                "https://swapi.co/api/species/5/",
-                "https://swapi.co/api/species/6/",
-                "https://swapi.co/api/species/8/",
-                "https://swapi.co/api/species/9/",
-                "https://swapi.co/api/species/10/",
-                "https://swapi.co/api/species/15/"
+                "Human",
+                "Droid",
+                "Wookiee",
+                "Hutt",
+                "Yoda's species",
+                "Mon Calamari",
+                "Ewok",
+                "Sullustan",
+                "Twi'lek"
             ],
             "created": "2014-12-18T10:39:33.255000Z",
             "edited": "2015-04-11T09:46:05.220365Z",
