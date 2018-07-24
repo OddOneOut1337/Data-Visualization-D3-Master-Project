@@ -143,7 +143,7 @@
                     "Chewbacca",
                     "Han Solo",
                     "Lando Calrissian",
-                    "Nien Nunb",
+                    "Nien Nunb"
                 ],
                 "films": [
                     "The Empire Strikes Back",
@@ -331,7 +331,7 @@
                         "Chewbacca",
                         "Han Solo",
                         "Lando Calrissian",
-                        "Nien Nunb",
+                        "Nien Nunb"
                     ],
                     "films": [
                         "The Empire Strikes Back",
@@ -411,7 +411,7 @@
                     "MGLT": "70",
                     "starship_class": "Patrol craft",
                     "pilots": [
-                        "Boba Fett",
+                        "Boba Fett"
                     ],
                     "films": [
                         "The Empire Strikes Back",
@@ -438,11 +438,11 @@
                     "pilots": [
                         "https://swapi.co/api/people/1/",
                         "Chewbacca",
-                        "Han Solo",
+                        "Han Solo"
                     ],
                     "films": [
                         "The Empire Strikes Back",
-                        "Return of the Jedi",
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T13:04:47.235000Z",
                     "edited": "2014-12-22T17:35:44.795405Z",
@@ -465,7 +465,7 @@
                     "pilots": [],
                     "films": [
                         "The Empire Strikes Back",
-                        "Return of the Jedi",
+                        "Return of the Jedi"
                     ],
                     "created": "2014-12-15T13:06:30.813000Z",
                     "edited": "2014-12-22T17:35:44.848329Z",
@@ -627,11 +627,11 @@
                         "Chewbacca",
                         "Han Solo",
                         "Lando Calrissian",
-                        "Nien Nunb",
+                        "Nien Nunb"
                     ],
                     "films": [
                         "The Empire Strikes Back",
-                        "title": "The Force Awakens",
+                        "The Force Awakens",
                         "https://swapi.co/api/films/3/",
                         "https://swapi.co/api/films/1/"
                     ],
@@ -709,7 +709,7 @@
                     "pilots": [
                         "https://swapi.co/api/people/1/",
                         "Chewbacca",
-                        "Han Solo",
+                        "Han Solo"
                     ],
                     "films": [
                         "The Empire Strikes Back",
