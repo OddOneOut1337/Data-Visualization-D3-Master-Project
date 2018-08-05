@@ -1,0 +1,172 @@
+[
+    {
+        "name": "TIE/LN starfighter",
+        "model": "Twin Ion Engine/Ln Starfighter",
+        "manufacturer": "Sienar Fleet Systems",
+        "cost_in_credits": "unknown",
+        "length": "6.4",
+        "max_atmosphering_speed": "1200",
+        "crew": "1",
+        "passengers": "0",
+        "cargo_capacity": "65",
+        "consumables": "2 days",
+        "vehicle_class": "starfighter",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi",
+            "A New Hope"
+        ],
+        "created": "2014-12-10T16:33:52.860000Z",
+        "edited": "2014-12-22T18:21:15.606149Z",
+        "url": "https://swapi.co/api/vehicles/8/"
+    },
+    {
+        "name": "TIE bomber",
+        "model": "TIE/sa bomber",
+        "manufacturer": "Sienar Fleet Systems",
+        "cost_in_credits": "unknown",
+        "length": "7.8",
+        "max_atmosphering_speed": "850",
+        "crew": "1",
+        "passengers": "0",
+        "cargo_capacity": "none",
+        "consumables": "2 days",
+        "vehicle_class": "space/planetary bomber",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:33:15.838000Z",
+        "edited": "2014-12-22T18:21:15.667730Z",
+        "url": "https://swapi.co/api/vehicles/16/"
+    },
+    {
+        "name": "AT-AT",
+        "model": "All Terrain Armored Transport",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+        "cost_in_credits": "unknown",
+        "length": "20",
+        "max_atmosphering_speed": "60",
+        "crew": "5",
+        "passengers": "40",
+        "cargo_capacity": "1000",
+        "consumables": "unknown",
+        "vehicle_class": "assault walker",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:38:25.937000Z",
+        "edited": "2014-12-22T18:21:15.714673Z",
+        "url": "https://swapi.co/api/vehicles/18/"
+    },
+    {
+        "name": "AT-ST",
+        "model": "All Terrain Scout Transport",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+        "cost_in_credits": "unknown",
+        "length": "2",
+        "max_atmosphering_speed": "90",
+        "crew": "2",
+        "passengers": "0",
+        "cargo_capacity": "200",
+        "consumables": "none",
+        "vehicle_class": "walker",
+        "pilots": [
+            "https://swapi.co/api/people/13/"
+        ],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:46:42.384000Z",
+        "edited": "2014-12-22T18:21:15.761584Z",
+        "url": "https://swapi.co/api/vehicles/19/"
+    },
+    {
+        "name": "Sail barge",
+        "model": "Modified Luxury Sail Barge",
+        "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+        "cost_in_credits": "285000",
+        "length": "30",
+        "max_atmosphering_speed": "100",
+        "crew": "26",
+        "passengers": "500",
+        "cargo_capacity": "2000000",
+        "consumables": "Live food tanks",
+        "vehicle_class": "sail barge",
+        "pilots": [],
+        "films": [
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-18T10:44:14.217000Z",
+        "edited": "2014-12-22T18:21:15.807906Z",
+        "url": "https://swapi.co/api/vehicles/24/"
+    },
+    {
+        "name": "Bantha-II cargo skiff",
+        "model": "Bantha-II",
+        "manufacturer": "Ubrikkian Industries",
+        "cost_in_credits": "8000",
+        "length": "9.5",
+        "max_atmosphering_speed": "250",
+        "crew": "5",
+        "passengers": "16",
+        "cargo_capacity": "135000",
+        "consumables": "1 day",
+        "vehicle_class": "repulsorcraft cargo skiff",
+        "pilots": [],
+        "films": [
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-18T10:48:03.208000Z",
+        "edited": "2014-12-22T18:21:15.845988Z",
+        "url": "https://swapi.co/api/vehicles/25/"
+    },
+    {
+        "name": "TIE/IN interceptor",
+        "model": "Twin Ion Engine Interceptor",
+        "manufacturer": "Sienar Fleet Systems",
+        "cost_in_credits": "unknown",
+        "length": "9.6",
+        "max_atmosphering_speed": "1250",
+        "crew": "1",
+        "passengers": "0",
+        "cargo_capacity": "75",
+        "consumables": "2 days",
+        "vehicle_class": "starfighter",
+        "pilots": [],
+        "films": [
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-18T10:50:28.225000Z",
+        "edited": "2014-12-22T18:21:15.882388Z",
+        "url": "https://swapi.co/api/vehicles/26/"
+    },
+    {
+        "name": "Imperial Speeder Bike",
+        "model": "74-Z speeder bike",
+        "manufacturer": "Aratech Repulsor Company",
+        "cost_in_credits": "8000",
+        "length": "3",
+        "max_atmosphering_speed": "360",
+        "crew": "1",
+        "passengers": "1",
+        "cargo_capacity": "4",
+        "consumables": "1 day",
+        "vehicle_class": "speeder",
+        "pilots": [
+            "https://swapi.co/api/people/1/",
+            "https://swapi.co/api/people/5/"
+        ],
+        "films": [
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-18T11:20:04.625000Z",
+        "edited": "2014-12-22T18:21:15.920537Z",
+        "url": "https://swapi.co/api/vehicles/30/"
+    }
+]

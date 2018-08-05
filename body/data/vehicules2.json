@@ -1,0 +1,132 @@
+[
+    {
+        "name": "TIE/LN starfighter",
+        "model": "Twin Ion Engine/Ln Starfighter",
+        "manufacturer": "Sienar Fleet Systems",
+        "cost_in_credits": "unknown",
+        "length": "6.4",
+        "max_atmosphering_speed": "1200",
+        "crew": "1",
+        "passengers": "0",
+        "cargo_capacity": "65",
+        "consumables": "2 days",
+        "vehicle_class": "starfighter",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi",
+            "A New Hope"
+        ],
+        "created": "2014-12-10T16:33:52.860000Z",
+        "edited": "2014-12-22T18:21:15.606149Z",
+        "url": "https://swapi.co/api/vehicles/8/"
+    },
+    {
+        "name": "Snowspeeder",
+        "model": "t-47 airspeeder",
+        "manufacturer": "Incom corporation",
+        "cost_in_credits": "unknown",
+        "length": "4.5",
+        "max_atmosphering_speed": "650",
+        "crew": "2",
+        "passengers": "0",
+        "cargo_capacity": "10",
+        "consumables": "none",
+        "vehicle_class": "airspeeder",
+        "pilots": [
+            "https://swapi.co/api/people/1/",
+            "https://swapi.co/api/people/18/"
+        ],
+        "films": [
+            "The Empire Strikes Back"
+        ],
+        "created": "2014-12-15T12:22:12Z",
+        "edited": "2014-12-22T18:21:15.623033Z",
+        "url": "https://swapi.co/api/vehicles/14/"
+    },
+    {
+        "name": "TIE bomber",
+        "model": "TIE/sa bomber",
+        "manufacturer": "Sienar Fleet Systems",
+        "cost_in_credits": "unknown",
+        "length": "7.8",
+        "max_atmosphering_speed": "850",
+        "crew": "1",
+        "passengers": "0",
+        "cargo_capacity": "none",
+        "consumables": "2 days",
+        "vehicle_class": "space/planetary bomber",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:33:15.838000Z",
+        "edited": "2014-12-22T18:21:15.667730Z",
+        "url": "https://swapi.co/api/vehicles/16/"
+    },
+    {
+        "name": "AT-AT",
+        "model": "All Terrain Armored Transport",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+        "cost_in_credits": "unknown",
+        "length": "20",
+        "max_atmosphering_speed": "60",
+        "crew": "5",
+        "passengers": "40",
+        "cargo_capacity": "1000",
+        "consumables": "unknown",
+        "vehicle_class": "assault walker",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:38:25.937000Z",
+        "edited": "2014-12-22T18:21:15.714673Z",
+        "url": "https://swapi.co/api/vehicles/18/"
+    },
+    {
+        "name": "AT-ST",
+        "model": "All Terrain Scout Transport",
+        "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+        "cost_in_credits": "unknown",
+        "length": "2",
+        "max_atmosphering_speed": "90",
+        "crew": "2",
+        "passengers": "0",
+        "cargo_capacity": "200",
+        "consumables": "none",
+        "vehicle_class": "walker",
+        "pilots": [
+            "https://swapi.co/api/people/13/"
+        ],
+        "films": [
+            "The Empire Strikes Back",
+            "Return of the Jedi"
+        ],
+        "created": "2014-12-15T12:46:42.384000Z",
+        "edited": "2014-12-22T18:21:15.761584Z",
+        "url": "https://swapi.co/api/vehicles/19/"
+    },
+    {
+        "name": "Storm IV Twin-Pod cloud car",
+        "model": "Storm IV Twin-Pod",
+        "manufacturer": "Bespin Motors",
+        "cost_in_credits": "75000",
+        "length": "7",
+        "max_atmosphering_speed": "1500",
+        "crew": "2",
+        "passengers": "0",
+        "cargo_capacity": "10",
+        "consumables": "1 day",
+        "vehicle_class": "repulsorcraft",
+        "pilots": [],
+        "films": [
+            "The Empire Strikes Back"
+        ],
+        "created": "2014-12-15T12:58:50.530000Z",
+        "edited": "2014-12-22T18:21:15.783232Z",
+        "url": "https://swapi.co/api/vehicles/20/"
+    }
+]
