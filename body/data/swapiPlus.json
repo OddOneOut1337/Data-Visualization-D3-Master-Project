@@ -1,4 +1,5 @@
-{
+[
+    {
     "film_1": [
         {
         "title": "A New Hope",
@@ -329,14 +330,16 @@
         "edited": "2015-04-11T09:46:52.774897Z",
         "url": "https://swapi.co/api/films/1/"
         }
-    ],
+    ]
+},
 
 
 
 
 
 
-    "film_2" : [
+    {
+        "film_2" : [
         {
             "title": "The Empire Strikes Back",
             "episode_id": 5,
@@ -741,7 +744,8 @@
             "edited": "2017-04-19T10:57:29.544256Z",
             "url": "https://swapi.co/api/films/2/"
         }
-    ],
+    ]
+},
 
 
 
@@ -751,6 +755,7 @@
 
 
 
+{
     "film_3" : [
         {
             "title": "Return of the Jedi",
@@ -1274,3 +1279,4 @@
         }
     ]
 }
+]
