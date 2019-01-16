@@ -8,7 +8,7 @@ Cette visualisation interactive a pour but de montrer et de comparer différente
 Le but de ce travail est de présenter différentes approches pour comparer ées vaisseaux de Star Wars il peut être utilisé comme base de donnée pour les jeux de rôle.
 
 ### Données
-Nos données ont été tirées de la Star Wars A.P.I. ([SWAPI](https://swapi.co/)) puis converties en document JSON locaux. Nous avons arrangé les ressources pour ne garder uniquement ce dont nous avions besoin.
+Nos données ont été tirées de la Star Wars A.P.I. ([SWAPI](https://swapi.co/)) puis converties en document JSON locaux. Nous avons arrangé les ressources pour uniquement garder ce dont nous avions besoin.
 
 Nous nous sommes également inspirés des données prpoposées par le site de fans [Star Wars Wiki](http://starwars.wikia.com/wiki/Main_Page) qui nous a fourni certaines données sur les batailles.
 
