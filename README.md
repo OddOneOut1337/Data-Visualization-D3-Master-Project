@@ -16,7 +16,7 @@ Nous nous sommes également inspirés des données proposées par le site de fan
 Notre page se divise en quatre sections:
 - La première section propose un schéma avec des cercles dont tout est modulable. Pour la faire apparaître, il suffit de cliquer sur le bouton "show". Le visiteur peut ensuite choisir la donnée qu'il souhaite entrer pour chaque axe, le rayon du cercle et la couleur. Des cercles se disposeront comme voulu avec les noms des vaisseaux en rouge pour l'Empire et en bleu pour l'Alliance rebelle.
 
-- La deuxième partie permet de comparer deux vaisseax entre eux. Le visiteur peut choisir le vaisseau dans la liste et le comaprer à un autre.
+- La deuxième partie permet de comparer deux vaisseax entre eux. Le visiteur peut choisir le vaisseau dans la liste et le comparer à un autre.
 
 - La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue ddepuis le menu déroulant.
 
