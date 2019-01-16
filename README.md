@@ -10,7 +10,7 @@ Le but de ce travail est de présenter différentes approches pour comparer ées
 ### Données
 Nos données ont été tirées de la Star Wars A.P.I. ([SWAPI](https://swapi.co/)) puis converties en document JSON locaux. Nous avons arrangé les ressources pour uniquement garder ce dont nous avions besoin.
 
-Nous nous sommes également inspirés des données prpoposées par le site de fans [Star Wars Wiki](http://starwars.wikia.com/wiki/Main_Page) qui nous a fourni certaines données sur les batailles.
+Nous nous sommes également inspirés des données proposées par le site de fans [Star Wars Wiki](http://starwars.wikia.com/wiki/Main_Page) qui nous a fourni certaines données sur les batailles.
 
 ### Interface
 Notre page se divise en quatre sections:
