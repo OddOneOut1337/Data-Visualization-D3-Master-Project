@@ -18,7 +18,7 @@ Notre page se divise en quatre sections:
 
 - La deuxième partie permet de comparer deux vaisseax entre eux. Le visiteur peut choisir le vaisseau dans la liste et le comparer à un autre.
 
-- La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue ddepuis le menu déroulant.
+- La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue depuis le menu déroulant.
 
 - La quatrième partie montre une estimation des pertes en véhicule par bataille.
 
