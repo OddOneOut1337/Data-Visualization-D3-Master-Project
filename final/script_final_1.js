@@ -3,6 +3,7 @@ d3.json("allDataClean.json", data =>{
   // Création d'une variable qui est composée de tous les éléments de notre base de données '
   let elements = Object.keys(data[0])
                 .filter(function(d){
+                  // Je retire juste le name et affiliation pour garder uniquement les données numériques
                     return ((d != "name") && (d != "affiliation"));
                 });
   let selection = elements[0];
@@ -40,7 +41,7 @@ let axeX = d3.axisBottom(xScale)
 let axeY = d3.axisLeft(yScale)
             .ticks(10)
 
-// svg.call(tooltip)
+// Création du tooltip
 let tooltip = d3.select("body").append("div").attr("class", "toolTip")
 
 
@@ -60,13 +61,13 @@ let barres = svg.selectAll("rect")
         .attr("width",((width-padding)/data.length-barPadding))
         .attr("height", 0)
         .attr("class", "bars")
-        // .on("mouseover", tooltip.show)
-        // .on("mouseout", tooltip.hide)
         .on("mouseover", function(d){
           tooltip.style("left", d3.event.pageX - 50 + "px")
               .style("top", d3.event.pageY - 70 + "px")
               .style("display", "inline-block")
-              .html((d.name) + "<br>" + d[selection])
+              // Affiche un "undefined" lors du lancement de la page, mais disparaît lorsqu'on sélectionne qqch au dropdrown menu
+              // .html((d.name) + "<br>" + d[selection])
+              .html((d.name) + "<br>" + d[selection.value])
         })
         .attr("fill", function(d){
               if(d.affiliation == "Galactic Empire"){
@@ -86,6 +87,7 @@ let barres = svg.selectAll("rect")
         .attr("height", function(d){
             return (height-yScale(+d[selection]))-padding;
         })
+        // .html((d.name) + "<br>" + d[selection.value])
 
 
 
@@ -166,8 +168,8 @@ selector.selectAll("option")
   .text(function(d){
     return d;
   })
-// delete : suppression des noeuds
 });
+
 
 //data bataille Endor
 let dataEndor = [

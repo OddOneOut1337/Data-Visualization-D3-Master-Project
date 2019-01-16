@@ -42,7 +42,6 @@ const svg_img_vaisseau_1 = d3.select("#img_vaisseau_1")
 
 // Quelques questions: je pense stocker chaque chemin à une donnée dans une variable et l'appeler dans d3.json.
 
-// Création de variables pour les bases de données
 
 
 let choixVaisseau = function choixRadioVaisseau1(){
@@ -166,9 +165,6 @@ svg_cost_in_credits_1.append("text")
                   .attr("font-size", "13px")
                   .attr("fill", "#c7bca8")
                   .attr("class","shipnb_cost")
-
-
-
   })
 }
 
@@ -176,7 +172,6 @@ svg_cost_in_credits_1.append("text")
 // début de la fonction
 function graph_vaisseau_1(){
 // Appel des données
-// d3.json(AWing, function(data){
 d3.json(choixVaisseau(), function(data){
 
     delete data.cost_in_credits
@@ -184,14 +179,11 @@ d3.json(choixVaisseau(), function(data){
 
     let elements_text = Object.keys(data)
     let elements = Object.values(data)
-
     // console.log(elements)
     // console.log(elements_sans_cost)
     // console.log(test)
     // console.log(data)
     // console.log(elements_sans_cost_values)
-
-
     let selection = elements
 
   //Mise à l'échelle
@@ -199,8 +191,6 @@ d3.json(choixVaisseau(), function(data){
                     .domain([0, 1000])
                     .range([100, 1000])
 
-  // Je vais tenter de faire une mise à l'échelle différenciée selon l'attribut parce que le cost in credits est trop élevé
-  // Peut-être faut-il isoler le cost in credits par une couleur et une échelle différente
 
   let barres = svg_vaisseau_1.selectAll("rect").data(elements)
 
@@ -221,10 +211,6 @@ d3.json(choixVaisseau(), function(data){
       barres.transition()
       .duration(500)
       .attr("width", widthScale)
-
-
-// d3.selectAll(".shiptxt").remove();
-
 
     let nombres = svg_vaisseau_1.selectAll("text.nombres").data(elements);
 
@@ -251,9 +237,6 @@ d3.selectAll(".shipnb").remove();
                     .text(function(d){
                       return d
                     })
-                    // .attr("x", function(d){
-                    //   return 500
-                    // })
                     .attr("x", (width/2) - 5)
                     .attr('y', function(d,i){
                         return 10 + (i*25)
@@ -262,13 +245,10 @@ d3.selectAll(".shipnb").remove();
                     .attr("font-size", "10")
                     .attr("fill", "#c7bca8")
                     .attr("class","shipnb")
-                    // .attr("text-anchor", "start")
 
               nombres.transition()
                       .duration(10)
                       .attr("font-size", "10")
-
-// update();
 })
 }
 
@@ -284,14 +264,14 @@ function img_1(){
     delete data.MGLT
 
     let elements = Object.values(data)
-    console.log(elements)
+    // console.log(elements)
 
     let images = svg_img_vaisseau_1.selectAll("image").data(elements)
 
+// Gestion de l'image
     images.enter()
           .append("svg:image")
           .attr('xlink:href', '')
-          // .attr("xlink:href", "img/A-Wing.png")
           .attr("x", 0)
           .attr("y", 0)
           .attr("height", 200)
@@ -353,14 +333,10 @@ function img_1(){
               return "img/Y-Wing.png"
             }
           })
-
-
   })
 }
 
 
-
-// J'ai un bug de bouton, j'arrive pas à le résoudre, à voir prochainement
 //Bouton pour créer la fonction
 d3.select("#bouton_vaisseau_1")
   .on("click", function(){
@@ -369,5 +345,6 @@ d3.select("#bouton_vaisseau_1")
     img_1();
   });
 
+// Disatch : simulation d'un click
   d3.select("#bouton_vaisseau_1").dispatch("click");
   d3.select("#bouton_vaisseau_1").dispatch("click");

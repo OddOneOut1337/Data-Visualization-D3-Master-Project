@@ -17,14 +17,14 @@ let select_spaceship1_15_2 = document.getElementById("X34_Landspeeder_2")
 let select_spaceship1_16_2 = document.getElementById("X-Wing_2")
 let select_spaceship1_17_2 = document.getElementById("Y-Wing_2")
 
-// Création du svg
+
 //Création des marges
 const width_vaisseau_2 = 500;
 const height_vaisseau_2 = 200;
 const barPadding_2 = 1;
 
 
-// Création du svg
+// Création des svg
 const svg_vaisseau_2 = d3.select("#vaisseau_2_graph")
     .append("svg")
     .attr("width", width_vaisseau_2/2)
@@ -39,10 +39,6 @@ const svg_img_vaisseau_2 = d3.select("#img_vaisseau_2")
       .append('svg')
       .attr('width', width_vaisseau_2/2)
       .attr('height', height_vaisseau_2)
-
-// Quelques questions: je pense stocker chaque chemin à une donnée dans une variable et l'appeler dans d3.json.
-
-// Création de variables pour les bases de données
 
 
 let choixVaisseau_2 = function choixRadioVaisseau2(){
@@ -165,11 +161,6 @@ svg_cost_in_credits_2.append("text")
                   .attr("font-size", "13px")
                   .attr("fill", "#c7bca8")
                   .attr("class","shipnb_cost_2")
-
-
-
-
-
   })
 }
 
@@ -210,7 +201,6 @@ d3.json(choixVaisseau_2(), function(data){
   // let widthScale = d3.scaleLinear()
 
 
-  // let barres = svg_vaisseau_1.selectAll("rect").data(selection)
   let barres_2 = svg_vaisseau_2.selectAll("rect").data(elements_2)
 
   // Création des barres
@@ -229,13 +219,7 @@ d3.json(choixVaisseau_2(), function(data){
     // Ajout d'animation sur les barres
       barres_2.transition()
       .duration(500)
-      // .attr("x", function(d){
-      //   return widthScale_2 - x(0)
-      // })
       .attr("width", widthScale_2)
-      // .attr("width", function(d){
-      //   return width - x(elements_2);
-      // })
 
 
 
@@ -290,6 +274,7 @@ d3.selectAll(".shipnb_2").remove();
 })
 }
 
+// Gestion des images
 function img_2(){
   d3.json(choixVaisseau_2(), function(data){
 
@@ -302,14 +287,13 @@ function img_2(){
     delete data.MGLT
 
     let elements_2 = Object.values(data)
-    console.log(elements_2)
+    // console.log(elements_2)
 
     let images_2 = svg_img_vaisseau_2.selectAll("image").data(elements_2)
 
     images_2.enter()
           .append("svg:image")
           .attr('xlink:href', '')
-          // .attr("xlink:href", "img/A-Wing.png")
           .attr("x", 0)
           .attr("y", 0)
           .attr("height", 200)
@@ -376,7 +360,6 @@ function img_2(){
 }
 
 
-// J'ai un bug de bouton, j'arrive pas à le résoudre, à voir prochainement
 //Bouton pour créer la fonction
 d3.select("#bouton_vaisseau_2")
   .on("click", function(){
@@ -385,5 +368,6 @@ d3.select("#bouton_vaisseau_2")
     img_2();
   });
 
+// Disatch : simulation d'un click
   d3.select("#bouton_vaisseau_2").dispatch("click");
   d3.select("#bouton_vaisseau_2").dispatch("click");
