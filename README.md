@@ -1,6 +1,7 @@
 ## Star Wars : projet de visualisations de données
 
 ![alt text](https://github.com/OddOneOut1337/Data-Visualization-D3-Master-Project/blob/master/solo-tryptich-Final-reg.jpg)
+image trouvée sur : [https://bottleneckgallery.com/products/mark-englert-she-s-got-it-where-it-counts](https://bottleneckgallery.com/products/mark-englert-she-s-got-it-where-it-counts)
 
 ### Description
 Cette visualisation interactive a pour but de montrer et de comparer différentes caractéristiques appartenant aux vaisseaux issus des films de la première trilogie:
