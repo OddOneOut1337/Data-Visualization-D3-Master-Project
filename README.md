@@ -5,10 +5,10 @@ Cette visualisation interactive a pour but de montrer et de comparer différente
 - LUCAS, George, *Star Wars : Episode V - The Empire Strikes Back*, Lucasfilm, 1980.
 - LUCAS, George, *Star Wars : Episode VI - Return of the Jedi*, Lucasfilm, 1983.
 
-Le but de se travail est de présenter différentes approches pour comparer ées vaisseaux de Star Wars il peut être utilisé comme base de donnée pour les jeux de rôle.
+Le but de ce travail est de présenter différentes approches pour comparer ées vaisseaux de Star Wars il peut être utilisé comme base de donnée pour les jeux de rôle.
 
 ### Données
-Nos données ont été tirées de la Star Wars A.P.I. ([SWAPI](https://swapi.co/)) puis converties en document JSON locaux. Nous avons arrangé les ressources pour ne garder que ce que nous voulions.
+Nos données ont été tirées de la Star Wars A.P.I. ([SWAPI](https://swapi.co/)) puis converties en document JSON locaux. Nous avons arrangé les ressources pour ne garder uniquement ce dont nous avions besoin.
 
 Nous nous sommes également inspirés des données prpoposées par le site de fans [Star Wars Wiki](http://starwars.wikia.com/wiki/Main_Page) qui nous a fourni certaines données sur les batailles.
 
@@ -20,7 +20,11 @@ Notre page se divise en quatre sections:
 
 - La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue ddepuis le menu déroulant.
 
-- La quatrième partie montre une estimation des pertes en véhicules par batailles.
+- La quatrième partie montre une estimation des pertes en véhicule par bataille.
+
+### Historique
+Au début de notre travail, nous avions cherché à rendre visible une partie des données concernant les vaisseaux apparaissant dans la première trilogie dans une même visualisation (Première section). Nous nous sommes aperçus que cela formait une trop grosse agglomération de données visuellement peu parlantes. Dès lors, nous nous sommes orientés dans des graphiques plus simples (Sections trois et quatre), permettant d'obtenir un résultat que nous trouvions plus convainquant.
+Suite à un entretien avec notre superviseur, il a été décidé que le projet prendrait une tournure plus rôlistique avec la section deux qui permet de comparer rapidement les valeurs de deux vaisseaux.
 
 ### Auteurs
-Travail réalisé par Daniel Escoval et & David Renaud dans le cadre du cours "Visualisation de données" de l'Université de Lausanne (UNIL), sous la supervision d'Isaac Pante.
+Travail réalisé par Daniel Escoval & David Renaud dans le cadre du cours "Visualisation de données" de l'Université de Lausanne (UNIL), sous la supervision d'Isaac Pante.
