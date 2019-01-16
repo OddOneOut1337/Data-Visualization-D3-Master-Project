@@ -23,7 +23,7 @@ Des cercles se disposeront comme voulu avec les noms des vaisseaux en rouge pour
 
 - La deuxième partie permet de comparer deux vaisseax entre eux. Le visiteur peut choisir le vaisseau dans la liste et le comparer à un autre.
 
-- La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue depuis le menu déroulant.
+- La troisième partie permet de comparer tous les vaisseaux entre eux en choisissant la donnée voulue depuis le menu déroulant. Un petit bug persiste, le premier résultat du tooltip est marqué "undefined", mais lorsqu'il y a changement de données, les valeurs sont ensuite mises au bon endroit, à la place d'undefined.
 
 - La quatrième partie montre une estimation des pertes en véhicule par bataille.
 
