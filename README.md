@@ -23,6 +23,8 @@ Notre page se divise en quatre sections:
 - La quatrième partie montre une estimation des pertes en véhicule par bataille.
 
 ### Historique
+Lors des premières ébauches de projet, nous n'avions pas différencié les grands vaisseaux des petits ce qui a eu pour conséquence de nous créer des visualisations trop planes à cause de valeurs extrêmes de certains vaisseaux.
+Par exemple, les valeurs de l'Étoile Noire dépassaient de plusieurs centaines de milliers les autres valeurs et écrasait le tout.
 Au début de notre travail, nous avions cherché à rendre visible une partie des données concernant les vaisseaux apparaissant dans la première trilogie dans une même visualisation (Première section). Nous nous sommes aperçus que cela formait une trop grosse agglomération de données visuellement peu parlantes. Dès lors, nous nous sommes orientés dans des graphiques plus simples (Sections trois et quatre), permettant d'obtenir un résultat que nous trouvions plus convainquant.
 Suite à un entretien avec notre superviseur, il a été décidé que le projet prendrait une tournure plus rôlistique avec la section deux qui permet de comparer rapidement les valeurs de deux vaisseaux.
 
