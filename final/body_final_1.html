@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='style_final_1.css' rel='stylesheet'>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="d3tip.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <div class="h1">STAR WARS</div>
+  <!-- <h2>La guerre vue dans les Épisodes IV, V & VI</h2> -->
+  <p>
+    <i>Star Wars</i>, aussi nommé <i>La Guerre des étoiles</i> en français est une univers de science-fiction avec des éléments d'heroic fantasy.
+    Dans ce travail, nous traiterons uniquement de la trilogie originelle, c'est-à-dire les trois films produits entre 1977 et 1983.
+  </p>
+  <p>
+    Ces films respectivement intitulés <i>Star Wars, épisode IV: Un nouvel espoir</i>, <i>Star Wars, épisode V: L'Empire contre-attaque</i> et <i>Star Wars, épisode VI : Le Retour du Jedi</i>
+    mettent en scène une guerre entre l'Alliance rebelle et l'Empire galactique.
+  </p>
+  <p>
+    Notre travail propose de montrer la guerre d'après la valeur des vaisseaux en laissant, délibérément, de côté l'intrigue se centrant sur les jedi.
+  </p>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <div style="margin:20px; margin-top:5px; border: 1px solid #3bbfe7;" class="codebox">
+    <dt style="height:22px; text-align: center;"><strong>Nous avions également pensé à faire un script avec des cercles.</strong>
+    <input type="button" value="Show" style="width:78px; font-size:10px; margin:0px; padding:0px;" onclick="var spoiler = $(this).parents('.codebox').find('.content').toggle('slow');
+    if ( this.value == 'Hide' ) { this.value = 'Show'; } else { this.value = 'Hide'; };
+    return false;"></dt>
+    <dd><div class="content" name="spoiler" style="display: none;">
+    <p>
+        Axe X
+        <input type="radio" id="noSelectX" name="filtreX" checked="true">Aucune sélection
+        <input type="radio" id="coutX" name="filtreX">Coût en crédits
+        <input type="radio" id="lengthX" name="filtreX">Longueur du véhicule
+        <input type="radio" id="atmoX" name="filtreX">Vitesse maximale dans l'atmosphère
+        <input type="radio" id="crewX" name="filtreX">Équipage maximal
+        <input type="radio" id="passengersX" name="filtreX">Nombre de passagers (en dehors de l'équipage)
+        <input type="radio" id="cargoX" name="filtreX">Capacité de la cargaison
+        <input type="radio" id="lumX" name="filtreX">Vitesse lumière
+    </p>
+    <p>
+            Axe Y
+            <input type="radio" id="noSelectY" name="filtreY" checked="true">Aucune sélection
+            <input type="radio" id="coutY" name="filtreY">Coût en crédits
+            <input type="radio" id="lengthY" name="filtreY">Longueur du véhicule
+            <input type="radio" id="atmoY" name="filtreY">Vitesse maximale dans l'atmosphère
+            <input type="radio" id="crewY" name="filtreY">Équipage maximal
+            <input type="radio" id="passengersY" name="filtreY">Nombre de passagers (en dehors de l'équipage)
+            <input type="radio" id="cargoY" name="filtreY">Capacité de la cargaison
+            <input type="radio" id="lumY" name="filtreY">Vitesse lumière
+    </p>
+    <p>
+            Rayon
+            <input type="radio" id="noSelectR" name="filtreR" checked="true">Aucune sélection
+            <input type="radio" id="coutR" name="filtreR">Coût en crédits
+            <input type="radio" id="lengthR" name="filtreR">Longueur du véhicule
+            <input type="radio" id="atmoR" name="filtreR">Vitesse maximale dans l'atmosphère
+            <input type="radio" id="crewR" name="filtreR">Équipage maximal
+            <input type="radio" id="passengersR" name="filtreR">Nombre de passagers (en dehors de l'équipage)
+            <input type="radio" id="cargoR" name="filtreR">Capacité de la cargaison
+            <input type="radio" id="lumR" name="filtreR">Vitesse lumière
+    </p>
+    <p>
+            Couleur
+            <input type="radio" id="noSelectC" name="filtreC" checked="true">Aucune sélection
+            <input type="radio" id="coutC" name="filtreC">Coût en crédits
+            <input type="radio" id="lengthC" name="filtreC">Longueur du véhicule
+            <input type="radio" id="atmoC" name="filtreC">Vitesse maximale dans l'atmosphère
+            <input type="radio" id="crewC" name="filtreC">Équipage maximal
+            <input type="radio" id="passengersC" name="filtreC">Nombre de passagers (en dehors de l'équipage)
+            <input type="radio" id="cargoC" name="filtreC">Capacité de la cargaison
+            <input type="radio" id="lumC" name="filtreC">Vitesse lumière
+    </p>
+    <input type="button" value="Génération du tableau" id="bouton_bonus">
+    <div id="graph_bonus"></div>
+    <script src="script7.js"></script>
+  </div></dd>
+  </div>
+  <br/>
+    <div id='comparateur'>
+      <div class="h2">Comparateur de vaisseaux</div>
+      <div id=vaisseau_1>
+        <div class="h3">Vaisseau 1</div>
+        <div id='vaisseau_1_radio'>
+            <input type="radio" id="A-Wing" name="vaisseau_1" checked="true">A-Wing
+            <input type="radio" id="AT-AT" name="vaisseau_1">AT-AT
+            <input type="radio" id="AT-ST" name="vaisseau_1">AT-ST
+            <input type="radio" id="B-Wing" name="vaisseau_1">B-Wing
+            <input type="radio" id="Imperial_Shuttle" name="vaisseau_1">Imperial Shuttle
+            <input type="radio" id="Imperial_Speeder_Bike" name="vaisseau_1">Imperial Speeder Bike
+            <input type="radio" id="Millennium_Falcon" name="vaisseau_1">Millenium Falcon
+            <input type="radio" id="Slave_1" name="vaisseau_1">Slave 1
+            <input type="radio" id="Snowspeeder" name="vaisseau_1">Snowspeeder
+            <input type="radio" id="T-16_skyhopper" name="vaisseau_1">T-16 Skyhopper
+            <input type="radio" id="TIE_Advanced_X1" name="vaisseau_1">TIE Advanced X1
+            <input type="radio" id="TIE_Bomber" name="vaisseau_1">TIE Bomber
+            <input type="radio" id="TIE-IN_Interceptor" name="vaisseau_1">TIE-IN Interceptor
+            <input type="radio" id="TIE-IN_Starfighter" name="vaisseau_1">TIE-IN Starfighter
+            <input type="radio" id="X34_Landspeeder" name="vaisseau_1">X34 Landspeeder
+            <input type="radio" id="X-Wing" name="vaisseau_1">X-Wing
+            <input type="radio" id="Y-Wing" name="vaisseau_1">Y-Wing
+            <br>
+            <br>
+            <input type="button" value="Vaisseau 1" id="bouton_vaisseau_1">
+        </div>
+        <div class = "ligne">
+          <div id= 'img_vaisseau_1' class="colonne"></div>
+          <div id ='plop' class = 'colonne'>
+            <div id="vaisseau_1_cost"></div>
+            <div id='vaisseau_1_graph'></div>
+          </div>
+        </div>
+      </div>
+      <div id="vaisseau_2">
+        <div class="h3">Vaisseau 2</div>
+        <div id='vaisseau_2_radio'>
+            <input type="radio" id="A-Wing_2" name="vaisseau_2">A-Wing
+            <input type="radio" id="AT-AT_2" name="vaisseau_2" checked="true">AT-AT
+            <input type="radio" id="AT-ST_2" name="vaisseau_2">AT-ST
+            <input type="radio" id="B-Wing_2" name="vaisseau_2">B-Wing
+            <input type="radio" id="Imperial_Shuttle_2" name="vaisseau_2">Imperial Shuttle
+            <input type="radio" id="Imperial_Speeder_Bike_2" name="vaisseau_2">Imperial Speeder Bike
+            <input type="radio" id="Millennium_Falcon_2" name="vaisseau_2">Millenium Falcon
+            <input type="radio" id="Slave_1_2" name="vaisseau_2">Slave 1
+            <input type="radio" id="Snowspeeder_2" name="vaisseau_2">Snowspeeder
+            <input type="radio" id="T-16_skyhopper_2" name="vaisseau_2">T-16 Skyhopper
+            <input type="radio" id="TIE_Advanced_X1_2" name="vaisseau_2">TIE Advanced X1
+            <input type="radio" id="TIE_Bomber_2" name="vaisseau_1">TIE Bomber
+            <input type="radio" id="TIE-IN_Interceptor_2" name="vaisseau_2">TIE-IN Interceptor
+            <input type="radio" id="TIE-IN_Starfighter_2" name="vaisseau_2">TIE-IN Starfighter
+            <input type="radio" id="X34_Landspeeder_2" name="vaisseau_2">X34 Landspeeder
+            <input type="radio" id="X-Wing_2" name="vaisseau_2">X-Wing
+            <input type="radio" id="Y-Wing_2" name="vaisseau_2">Y-Wing
+            <br>
+            <br>
+            <input type="button" value="Vaisseau 2" id="bouton_vaisseau_2">
+        </div>
+        <div class = "ligne">
+          <div id ='plop' class = 'colonne'>
+            <div id="vaisseau_2_cost"></div>
+            <div id='vaisseau_2_graph'></div>
+          </div>
+          <div id= 'img_vaisseau_2' class="colonne"></div>
+        </div>
+      </div>
+    </div>
+  <div id="prop">
+    <div class="h2">Propriétés par vaisseaux</div>
+      <div id="drop"></div>
+      <div id="graph"></div>
+  </div>
+  <div class="h2">Pertes par bataille</div>
+    <div id = "line_dognuts">
+      <div id="chart_1" class="dognut">
+        <div class="h3">Bataille d'Endor</div>
+      </div>
+      <div id="chart_2" class="dognut">
+        <div class="h3">Bataille de Hot</div>
+      </div>
+      <div id="chart_3" class="dognut">
+        <div class="h3">Bataille de Yavin IV</div>
+      </div>
+    </div>
+
+  <div class="h2">Bibliographie</div>
+    <div class="h3">Sitographie</div>
+  <p>Nos données ont été tirées de <a href="https://swapi.co/">la Star Wars A.P.I. (SWAPI)</a> puis converties en document JSON locaux. Nous avons arrangé les ressources pour ne garder que ce que nous voulions.</p>
+  <p>Nous nous sommes également inspirés des données prpoposées par le site de fans <a href="http://fr.starwars.wikia.com/wiki/Accueil">Star Wars Wiki</a> qui nous a fourni certaines données sur les batailles</p>
+    <div class="h3">Filmographie et teasers</div>
+    <div id='line_dognuts'>
+      <div  class="dognut">
+        <h4>Star Wars : Episode IV - A New Hope</h4>
+        <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/vZ734NWnAHA" style="width:320px; height:240px;">
+          <param name="movie" value="http://www.youtube.com/v/vZ734NWnAHA" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowScriptAccess" value="always" />
+          <param name="wmode" value="transparent" />
+        </object>
+        <p>LUCAS, George, <i>Star Wars : Episode IV - A New Hope</i>, Lucasfilm, 1977.</p>
+      </div>
+      <div  class="dognut">
+        <h4>Star Wars : Episode V - The Empire Strikes Back</h4>
+        <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/JNwNXF9Y6kY" style="width:320px; height:240px;">
+          <param name="movie" value="http://www.youtube.com/v/JNwNXF9Y6kY" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowScriptAccess" value="always" />
+          <param name="wmode" value="transparent" />
+        </object>
+        <p>LUCAS, George, <i>Star Wars : Episode V - The Empire Strikes Back</i>, Lucasfilm, 1980.</p>
+      </div>
+      <div  class="dognut">
+        <h4>Star Wars : Episode VI - Return of the Jedi</h4>
+        <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/7L8p7_SLzvU" style="width:320px; height:240px;">
+          <param name="movie" value="http://www.youtube.com/v/7L8p7_SLzvU" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowScriptAccess" value="always" />
+          <param name="wmode" value="transparent" />
+        </object>
+        <p>LUCAS, George, <i>Star Wars : Episode VI - Return of the Jedi</i>, Lucasfilm, 1983.</p>
+      </div>
+    </div>
+  <script src="script_final_1.js"></script>
+  <script src="comparaison.js"></script>
+  <script src="comparaison_2.js"></script>
+</body>
+</html>

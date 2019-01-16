@@ -1,0 +1,10 @@
+{
+    "cost_in_credits": 135000,
+    "length": 14,
+    "max_atmosphering_speed": 1000,
+    "crew": 2,
+    "passengers": 0,
+    "cargo_capacity": 110,
+    "MGLT": 80,
+    "img" : 17
+}
