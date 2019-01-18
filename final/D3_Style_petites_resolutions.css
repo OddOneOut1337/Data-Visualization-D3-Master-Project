@@ -1,0 +1,206 @@
+body{
+    /* background-color: hsl(116, 0%, 13%); */
+    background-color: hsl(16, 50%, 13%);
+    color: hsl(0, 0%, 100%); /* blanc */
+    width : 100%;
+    /* overflow: hidden; */
+    margin: 5px 5px 5px 5px;
+    /* color: hsl(0, 0%, 50%);
+    margin : 25px 50px 25px 50px; */
+    /* font-family: 'starwars'; */
+
+}
+
+.codebox{
+  margin: 20px;
+  margin-top: 5px;
+  border: 1px solid #3bbfe7;
+}
+
+.h1{
+    color : grey;
+    text-align: center;
+    font-size : 100px;
+    font-weight: bold;
+    font-family: arial;
+    color: hsl(116, 0%, 13%);
+    text-shadow:
+      -1px -1px 0 #ffe820,
+      1px -1px 0 #ffe820,
+      -1px 1px 0 #ffe820,
+      1px 1px 0 #ffe820
+}
+
+.h2{
+  color : grey;
+  text-align: left;
+  font-size : 40px;
+  font-weight: bold;
+  font-family: arial;
+  color: hsl(116, 0%, 13%);
+  text-shadow:
+    -1px -1px 0 #ffe820,
+    1px -1px 0 #ffe820,
+    -1px 1px 0 #ffe820,
+    1px 1px 0 #ffe820
+}
+
+.h3{
+  color : #ffe820;
+  text-align: left;
+  font-size : 20px;
+  font-weight: bold;
+  font-family: arial;
+  /* color: hsl(116, 0%, 13%);
+  text-shadow:
+    -1px -1px 0 #ffe820,
+    1px -1px 0 #ffe820,
+    -1px 1px 0 #ffe820,
+    1px 1px 0 #ffe820 */
+}
+
+#comparateur{
+  font-family: arial;
+  font-size: 16px;
+}
+
+#vaisseau_1{
+  width : 45%;
+  float : left;
+  margin-right: 50px;
+}
+
+#vaisseau_2{
+  width: 45%;
+  float: none;
+  margin-left: 50px;
+}
+
+#plop{
+  float: none;
+}
+
+#chart_1{
+  order:1;
+  width: auto;
+}
+
+#chart_2{
+  order:2;
+  width: auto;
+}
+
+#chart_3{
+  order:3;
+  width: auto;
+}
+
+.vid_col{
+  margin: auto;
+  width: auto;
+}
+
+#testun{
+  margin: auto;
+}
+
+#testdeux{
+  margin: auto;
+  /* display: block; */
+}
+/*couleur des rectangles en mouseover*/
+.bars:hover {
+  fill: #c7bca8;
+  width: 80%;
+  padding: 12px;
+}
+
+.axis{
+  stroke: #c7bca8;
+  fill : #c7bca8;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #212121;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+
+  /*tooltip*/
+  .d3-tip {
+    line-height: 1px;
+    font-weight: bold;
+    /*taille du carré du tooltip*/
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+  }
+
+  /* création d'un petit triangle pour le tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    /*taille du triangle*/
+    font-size: 10px;
+    /*emplacement horizontal du triangle*/
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    text-align: center;
+  }
+
+  /* emplacement du triangle attaché au tooltip */
+  .d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  }
+
+.pie {
+  margin: 20px;
+  }
+
+.pie text {
+  font-family: "Arial";
+  fill: #c7bca8;
+  }
+
+.pie .name-text{
+  font-size: 1em;
+  }
+
+.pie .value-text{
+  font-size: 3em;
+  }
+
+  .line_dognuts
+  {
+      display: table;
+  }
+  .dognut
+  {
+      display: table-cell;
+      width : 33%
+  }
+
+  .ligne
+  {
+      display: table;
+      height : 100px
+  }
+  .colonne
+  {
+      display: table-cell;
+      /* width : 33% */
+  }
+
+ circle{
+  -moz-transition: all 1s;
+}

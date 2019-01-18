@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='style_final_1.css' rel='stylesheet'>
+    <!-- Style pour un grand écran -->
+    <link rel='stylesheet' media="screen and (min-width: 1800px)" href='D3_Style_grandes_resolutions.css' type="text/css">
+    <!-- Style pour un écran de taille moyenne -->
+    <link rel='stylesheet'  media="screen and (max-width: 1800px)" href='D3_Style_moyennes_resolutions.css' type="text/css">
+    <!-- Style pour un smartphone -->
+    <link rel='stylesheet' media="screen and (max-width: 640px)" href='D3_Style_petites_resolutions.css' type="text/css">
     <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
     <script src="d3tip.js"></script>
     <title>Document</title>
@@ -12,6 +17,7 @@
 <body>
   <div class="h1">STAR WARS</div>
   <!-- <h2>La guerre vue dans les Épisodes IV, V & VI</h2> -->
+  <div id='mainTexte'>
   <p>
     <i>Star Wars</i>, aussi nommé <i>La Guerre des étoiles</i> en français est une univers de science-fiction avec des éléments d'heroic fantasy.
     Dans ce travail, nous traiterons uniquement de la trilogie originelle, c'est-à-dire les trois films produits entre 1977 et 1983.
@@ -23,10 +29,10 @@
   <p>
     Notre travail propose de montrer la guerre d'après la valeur des vaisseaux en laissant, délibérément, de côté l'intrigue se centrant sur les jedi.
   </p>
-  
+  </div>
   <!-- Ancien script avec les cercles -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <div style="margin:20px; margin-top:5px; border: 1px solid #3bbfe7;" class="codebox">
+  <div class="codebox">
     <dt style="height:22px; text-align: center;"><strong>Nous avions également pensé à faire un script avec des cercles.</strong>
     <input type="button" value="Show" style="width:78px; font-size:10px; margin:0px; padding:0px;" onclick="var spoiler = $(this).parents('.codebox').find('.content').toggle('slow');
     if ( this.value == 'Hide' ) { this.value = 'Show'; } else { this.value = 'Hide'; };
@@ -78,7 +84,7 @@
     </p>
     <input type="button" value="Génération du tableau" id="bouton_bonus">
     <div id="graph_bonus"></div>
-    <script src="script7.js"></script>
+    <script src="D3_Circle_Visual.js"></script>
   </div></dd>
   </div>
   <br/>
@@ -172,8 +178,8 @@
   <p>Nos données ont été tirées de <a href="https://swapi.co/">la Star Wars A.P.I. (SWAPI)</a> puis converties en document JSON locaux. Nous avons arrangé les ressources pour ne garder que ce que nous voulions.</p>
   <p>Nous nous sommes également inspirés des données prpoposées par le site de fans <a href="http://fr.starwars.wikia.com/wiki/Accueil">Star Wars Wiki</a> qui nous a fourni certaines données sur les batailles.</p>
     <div class="h3">Filmographie et teasers</div>
-    <div id='line_dognuts'>
-      <div  class="dognut">
+    <div id='vid_line'>
+      <div  class="vid_col" text-align: "center" id='testun'>
         <h4>Star Wars : Episode IV - A New Hope</h4>
         <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/vZ734NWnAHA" style="width:320px; height:240px;">
           <param name="movie" value="http://www.youtube.com/v/vZ734NWnAHA" />
@@ -183,7 +189,7 @@
         </object>
         <p>LUCAS, George, <i>Star Wars : Episode IV - A New Hope</i>, Lucasfilm, 1977.</p>
       </div>
-      <div  class="dognut">
+      <div class="vid_col" text-align: "center" id='testdeux'>
         <h4>Star Wars : Episode V - The Empire Strikes Back</h4>
         <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/JNwNXF9Y6kY" style="width:320px; height:240px;">
           <param name="movie" value="http://www.youtube.com/v/JNwNXF9Y6kY" />
@@ -193,7 +199,7 @@
         </object>
         <p>LUCAS, George, <i>Star Wars : Episode V - The Empire Strikes Back</i>, Lucasfilm, 1980.</p>
       </div>
-      <div  class="dognut">
+      <div  class="vid_col" text-align: "center">
         <h4>Star Wars : Episode VI - Return of the Jedi</h4>
         <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/7L8p7_SLzvU" style="width:320px; height:240px;">
           <param name="movie" value="http://www.youtube.com/v/7L8p7_SLzvU" />
@@ -204,8 +210,8 @@
         <p>LUCAS, George, <i>Star Wars : Episode VI - Return of the Jedi</i>, Lucasfilm, 1983.</p>
       </div>
     </div>
-  <script src="script_final_1.js"></script>
-  <script src="comparaison.js"></script>
-  <script src="comparaison_2.js"></script>
+  <script src="D3_JS.js"></script>
+  <script src="D3_comparaison.js"></script>
+  <script src="D3_comparaison_2.js"></script>
 </body>
 </html>

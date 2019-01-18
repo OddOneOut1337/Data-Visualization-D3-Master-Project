@@ -17,9 +17,12 @@ let select_spaceship1_15 = document.getElementById("X34_Landspeeder")
 let select_spaceship1_16 = document.getElementById("X-Wing")
 let select_spaceship1_17 = document.getElementById("Y-Wing")
 
+let aaa1 = document.getElementById("comparateur").offsetWidth
+console.log(aaa1);
+
 // Création du svg
 //Création des marges
-const width_vaisseau = 500;
+const width_vaisseau = (aaa1/2);
 const height_vaisseau = 200;
 const barPadding = 1;
 
@@ -32,12 +35,12 @@ const svg_vaisseau_1 = d3.select("#vaisseau_1_graph")
 
 const svg_cost_in_credits_1 = d3.select("#vaisseau_1_cost")
     .append('svg')
-    .attr('width', width_vaisseau/2)
+    .attr('width', (width_vaisseau/2))
     .attr('height', height_vaisseau/2)
 
 const svg_img_vaisseau_1 = d3.select("#img_vaisseau_1")
       .append('svg')
-      .attr('width', width_vaisseau/2)
+      .attr('width', width_vaisseau/2-10)
       .attr('height', height_vaisseau)
 
 // Quelques questions: je pense stocker chaque chemin à une donnée dans une variable et l'appeler dans d3.json.

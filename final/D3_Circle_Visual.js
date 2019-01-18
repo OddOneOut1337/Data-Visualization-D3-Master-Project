@@ -1,7 +1,11 @@
 //constantes
-const w = 1000;
-const h = 500;
-const padding = 100;
+// const w = 1000;
+// const h = 500;
+// const padding = 100;
+
+const w = window.innerWidth;
+const h =  window.innerHeight;
+const padding = window.innerWidth/5;
 
 
 //création du svg

@@ -17,12 +17,13 @@ let select_spaceship1_15_2 = document.getElementById("X34_Landspeeder_2")
 let select_spaceship1_16_2 = document.getElementById("X-Wing_2")
 let select_spaceship1_17_2 = document.getElementById("Y-Wing_2")
 
+let aaa = document.getElementById("comparateur").offsetWidth
+console.log(aaa);
 
 //Création des marges
-const width_vaisseau_2 = 500;
+const width_vaisseau_2 = (aaa1/2)-50;
 const height_vaisseau_2 = 200;
 const barPadding_2 = 1;
-
 
 // Création des svg
 const svg_vaisseau_2 = d3.select("#vaisseau_2_graph")

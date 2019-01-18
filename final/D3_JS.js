@@ -10,10 +10,18 @@ d3.json("allDataClean.json", data =>{
   // console.log(selection)
 
   // Création des marges
-  const width = 1000;
-  const height = 1000;
-  const padding = 200;
-  const barPadding = 1;
+  // const width = 1000;
+  // const height = 1000;
+  // const padding = 200;
+  // const barPadding = 1;
+
+  // let plop_width = document.getElementById("plop").offsetWidth
+
+  // const width_dognut = plop_width*2;
+  const width = window.innerWidth-30
+  const height =  500
+  const padding = 100
+  const barPadding = 1
 
   // Création du svg
   let svg = d3.select("#graph")
@@ -212,13 +220,15 @@ let dataYavin = [
         ];
 
 // console.log(dataYavin)
+let width_div = document.getElementById("line_dognuts").offsetWidth
 
 // Création d'une variable text vide pour laisser l'espace creux disponible pour le mouseover ?
 let text = " ";
 
 // création des consts
-const width = 300;
+const width = width_div/4;
 const height = 300;
+
 // défini l'épaisseur du donut
 const thickness = 40;
 // défini le rayon du donut
@@ -284,7 +294,7 @@ let pie_1 = d3.pie()
             .on("mouseover", function(d) {
                   let g = d3.select(this)
                   // remplacer le curseur par le signe ?
-                  .style("cursor", "help")
+                  // .style("cursor", "help")
                   //attribution d'une couleure
                   .style("fill", "#c7bca8")
                   .append("g")
@@ -323,7 +333,7 @@ let pie_1 = d3.pie()
       .attr('fill', (d,i) => color(i))
       .on("mouseover", function(d) {
           d3.select(this)
-            .style("cursor", "help")
+            .style("cursor", "default")
             .style("fill", "#c7bca8");
         })
       .on("mouseout", function(d) {
@@ -358,9 +368,9 @@ let pie_2 = d3.pie()
               .on("mouseover", function(d) {
                     let g = d3.select(this)
                     // remplacer le curseur par le signe ?
-                    .style("cursor", "help")
+                    // .style("cursor", "help")
                     //attribution d'une couleure
-                    .style("fill", "red")
+                    .style("fill", "#c7bca8")
                     .append("g")
                     .attr("class", "text-group");
 
@@ -397,8 +407,8 @@ let pie_2 = d3.pie()
         .attr('fill', (d,i) => color(i))
         .on("mouseover", function(d) {
             d3.select(this)
-              .style("cursor", "help")
-              .style("fill", "red");
+              .style("cursor", "default")
+              .style("fill", "#c7bca8");
           })
         .on("mouseout", function(d) {
             d3.select(this)
@@ -431,7 +441,7 @@ let pie_2 = d3.pie()
               .on("mouseover", function(d) {
                     let g = d3.select(this)
                     // remplacer le curseur par le signe ?
-                    .style("cursor", "help")
+                    // .style("cursor", "help")
                     //attribution d'une couleure
                     .style("fill", "red")
                     .append("g")
@@ -470,7 +480,7 @@ let pie_2 = d3.pie()
         .attr('fill', (d,i) => color(i))
         .on("mouseover", function(d) {
             d3.select(this)
-              .style("cursor", "help")
+              .style("cursor", "default")
               .style("fill", "red");
           })
         .on("mouseout", function(d) {
